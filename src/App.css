@@ -1,0 +1,21 @@
+header {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 20px;
+  background: #AAB;
+}
+aside {
+  position: absolute;
+  top: 50px; bottom: 0; left: 0;
+  width: 200px;
+  padding: 20px;
+  background: #DDE;
+}
+main {
+  position: absolute;
+  top: 50px; left: 240px;
+  right: 0; bottom: 0;
+  padding: 20px;
+}
