@@ -7,7 +7,7 @@ import { listRecipe, showRecipe } from '../actions/recipe';
 class Sidebar extends Component {
   
   componentDidMount() {
-    listRecipe(this.props.dispatch);
+    this.props.dispatch(listRecipe());
   }
 
   showRecipe = (id) => {
@@ -19,6 +19,7 @@ class Sidebar extends Component {
     console.log(this.props)
     return (
       <aside>
+        <h2>Menu lateral</h2>
         <Link to='/'>Home</Link>
         <br />
         <Link to='/about'>About</Link>
@@ -32,7 +33,7 @@ class Sidebar extends Component {
                </a>
         })}
         <br />
-        <b style={{color: this.props.color}}>{this.props.message}</b>
+        <b id='notificationMessages' style={{color: this.props.color}}>{this.props.message}</b>
       </aside>
     );
   }
