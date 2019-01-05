@@ -1,0 +1,7 @@
+{
+  "receitas": [
+    { "id": "coxinha", "title": "Coxinhas gostosas da vovó", "ingredientes": ["Farinha", "Caldo Knor"] },
+    { "id": "lasanha", "title": "Lasanha para engordar", "ingredientes": ["Caixinha no Microondas"] },
+    { "id": "pizza", "title": "Pizza da Mama", "ingredientes": ["Farinha", "Água", "Tomate"] }
+  ]
+}

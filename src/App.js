@@ -17,17 +17,6 @@ const store = createStore(reducers);
 
 class App extends Component {
 
-  componentDidMount() {
-    fetch('https://app.einne.sebrae.com.br/api_front/general_value')
-    .then(response => response.json())
-    .then(response => {
-      this.setState({ message: response[0] });
-    });
-  }
-
-  componentDidUpdate() {
-  }
-
   render() {
     return (
       <Router>
